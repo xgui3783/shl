@@ -2,7 +2,7 @@
 	path = themes/ananke
 	url = https://github.com/budparr/gohugo-theme-ananke.git
 
-[submodule "themes/hugo-creative-theme"]
-	path = themes/hugo-creative-theme
-	url = https://github.com/digitalcraftsman/hugo-creative-theme.git
 
+[submodule "themes/hugo-creative"]
+	path = themes/hugo-creative
+	url = https://github.com/digitalcraftsman/hugo-creative-theme

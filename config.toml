@@ -1,7 +1,7 @@
 baseurl = "http://localhost:1313/"
 languageCode = "en-us"
 title = "SHL and Associates"
-theme = "hugo-creative-theme"
+theme = "hugo-creative"
 googleAnalytics = ""
 
 [params]
