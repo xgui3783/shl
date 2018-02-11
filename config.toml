@@ -1,4 +1,101 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://localhost:1313/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+title = "SHL and Associates"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+  name = "SHL and Associates"
+  description = "SHL and Associates Laywers are based in Sydney. We have your interest in mind."
+
+  favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "SHL and Associates"
+
+		[params.navigation.links]
+			services  = "Areas of Practice"
+			about     = "About"
+			# portfolio = "Portfolio"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "SHL and Associates"
+		subtitle   = "We have your best interest in mind."
+		buttonText = "Contact Us Today"
+
+
+	# About section
+
+	# Service section
+	[params.services]
+		headline = "Areas of Practice"
+
+    [[params.services.list]]
+      # icon = "fa-diamond"
+      title = "Commercial Litigation"
+      description = "We have helped clients with cases involving issues such as property dispute and shareholder dispute."
+
+    [[params.services.list]]
+			# icon = "fa-paper-plane"
+			title = "Property Law"
+			description = "We can be your invaluable asset when you buy, sell, lease and off-plan purchase a property."
+
+		[[params.services.list]]
+      # icon = "fa-newspaper-o"
+      title = "Commercial Law"
+      description = "SHL and Associates Lawyers always have your best interest in mind. During the initial consultation, we will accurately assess your unique situation. We will then provide you with a road map to the possible resolutions. We will be there with you, from the beginning, til the end."
+
+    [[params.services.list]]
+      # icon = "fa-heart"
+      title = "Family Law"
+      description = ""
+
+    [[params.services.list]]
+      # icon = "fa-heart"
+      title = "Immigration Law"
+      description = ""
+
+
+	[params.about]
+		headline    = "About SHL and Associates"
+		description = "SHL & Associates Lawyers is a Sydney based law firm, providing a wide range of legal services to Australian as well as international clients. We specialise in commercial litigation, property law, commercial law, family law and immigration law. Our sustained growth since our inception is a testament to our professionalism, expertise and our commitment to our clients. At SHL & Associates Lawyers, we look after your best interest."
+		buttonText  = "Get started!"
+
+    # Portfolio modals
+	[params.portfolio.modal]
+    client = "Client"
+    date = ""
+    category = ""
+    buttonText = "Close"
+
+    # Aside section
+	# [params.aside]
+	# 	headline = "Get the Creative Theme for Hugo"
+
+	# 	[params.aside.button]
+	# 		text = "Download now"
+	# 		link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Contact us"
+		description = "We would love to speak to you in confidence regarding your situation and needs."
+		phone = " +61 2 8004 9826"
+    fax = "+61 2 8004 9892"
+		email = "jonathan.lu@shlandassociates.com.au"
+    dx = "DX 258 Sydney"
+    officeAddress = "Level 11, 84 Pitt Street, Sydney NSW 2000 Australia"
+    postalAddress = "GPO Box 1636, Sydney NSW 2001"
+
+	# Google Maps section
+	[params.location]
+		latitude  = "-33.8668672"
+		longitude = "151.208673"
+		maps_api_key = ""
