@@ -1,5 +1,5 @@
-baseurl = "https://www.pandamakes.com.au/html/shl_useapi/"
-# baseurl = "http://localhost:1313/"
+# baseurl = "https://www.pandamakes.com.au/html/shl_useapi/"
+baseurl = ""
 languageCode = "en-us"
 title = "SHL and Associates"
 theme = "hugo-creative"
