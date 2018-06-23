@@ -1,0 +1,6 @@
+Gloria Wang 
+======
+
+Gloria is a registered migration agent and she provides practical strategic advice based on the most up to date immigration decisions and legislative developments. 
+
+Gloria’s practice include advising, preparing, and lodging all varieties of visa applications, in particular, business investment visas, and advising and assisting with refusals and cancellations of visas and application for review in the Administrative Appeals Tribunal, courts or seeking Ministerial Intervention.

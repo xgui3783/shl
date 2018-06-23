@@ -3,6 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/areasofpractice/commercial-litigation/</loc>
+  </url>
+  
+  <url>
+    <loc>/areasofpractice/commercial-property-law/</loc>
+  </url>
+  
+  <url>
+    <loc>/areasofpractice/criminal-law/</loc>
+  </url>
+  
+  <url>
+    <loc>/areasofpractice/family-law/</loc>
+  </url>
+  
+  <url>
+    <loc>/areasofpractice/immigration-services/</loc>
+  </url>
+  
+  <url>
+    <loc>/areasofpractice/notary-public/</loc>
+  </url>
+  
+  <url>
+    <loc>/areasofpractice/property-law-conveyancing/</loc>
+  </url>
+  
+  <url>
+    <loc>/areasofpractice/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
   </url>
