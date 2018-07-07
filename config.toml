@@ -9,6 +9,8 @@ googleAnalytics = ""
 [languages]
 	[languages.en]
 		name = "SHL and Associates"
+		languageName = "EN"
+
 		[languages.en.params]
 
 			name = "SHL and Associates"
@@ -24,8 +26,9 @@ googleAnalytics = ""
 				[languages.en.params.navigation.links]
 					services  = "Areas of Practice"
 					about     = "About"
-					# portfolio = "Portfolio"
-					contact   = "Contact"
+					team 			= "Our Team"
+					portfolio	= "Recent Cases"
+					contact   = "Contact Us"
 
 
 			# Hero section
@@ -49,11 +52,19 @@ googleAnalytics = ""
 				
 
 				# Portfolio modals
-			[languages.en.params.portfolio.modal]
+			[languages.en.params.modal]
 				client = "Client"
 				date = ""
 				category = ""
 				buttonText = "Close"
+
+			[languages.en.params.team]
+				title = "Our Team"
+				jointitle = "Join our team"
+				joinusmarkdown = "At SHL & Associates Lawyer, we maintain a collegial and inclusive workplace culture.   We believe everyone has a role to play to propel the team to deliver the best outcome for our clients.\n \nIf you wish to join our professional \"family\", please send a cover letter, resume and academic transcript to [info@shllaw.com.au](info@shllaw.com.au)"
+
+			[languages.en.params.cases]
+				title = "Recent Cases"
 
 				# Aside section
 			# [languages.en.params.aside]
@@ -69,7 +80,85 @@ googleAnalytics = ""
 				description = "We would love to speak to you in confidence regarding your situation and needs."
 				phone = " +61 2 8004 9826"
 				fax = "+61 2 8004 9892"
-				email = "jonathan.lu@shlandassociates.com.au"
+				email = "info@shllaw.com.au"
+				dx = "DX 258 Sydney"
+				officeAddress = "Level 11, 84 Pitt Street, Sydney NSW 2000 Australia"
+				postalAddress = "GPO Box 1636, Sydney NSW 2001"
+
+	[languages.cn]
+		name = "SHL and Associates"
+		languageName = "中文"
+		[languages.cn.params]
+
+			name = "SHL and Associates"
+			description = "选择SHL，因为我们竭诚为您的利益保驾护航！选择SHL，因为我们团队至诚至信！"
+
+			favicon = "favicon.ico"
+
+
+			# Navigation
+			[languages.cn.params.navigation]
+				brand = "SHL and Associates"
+
+				[languages.cn.params.navigation.links]
+					services  = "专业领域"
+					about     = "关于"
+					team 			= "我们的团队"
+					portfolio	= "过往案例"
+					contact   = "联系我们"
+
+
+			# Hero section
+			[languages.cn.params.hero]
+				# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+				slogan     = "SHL and Associates"
+				subtitle   = "选择SHL，因为我们竭诚为您的利益保驾护航！"
+				buttonText = "选择SHL，因为我们团队至诚至信！"
+
+
+			# About section
+
+			# Service section
+			[languages.cn.params.services]
+				headline = "专业领域"
+				subtitle = "我们的专业领域包括：商业诉讼、房产法、房产过户、商业法、家庭法、刑法、移民法以及公证服务。"
+
+			[languages.cn.params.about]
+				headline    = "关于 SHL and Associates"
+				description = "SHL是一所专注于专业领域法律的专业化精品所，律师团队以诚信、实干以及竭诚尽力著称。 <br />在SHL，我们为客户提供量身订造的法律服务，我们以丰富的专业知识与经验以保障我们法律服务的品质与法律意见的规范。无论是复杂的公司纠纷或是简单的房产过户交易，我们的团队定会积极为您提供最专业的法律服务。<br />我们的专业，值得您的信赖。"
+				
+
+				# Portfolio modals
+			[languages.cn.params.modal]
+				client = "Client"
+				date = ""
+				category = ""
+				buttonText = "Close"
+
+			[languages.cn.params.team]
+
+				title = "我们的团队"
+				jointitle = "加入我们的团队"
+				joinusmarkdown = "在SHL，我们能为你提供一个兼容并包的工作环境。我们相信每个人都能在自己的岗位上发挥推动整个团队的作用，并为客户提供最佳服务。\n\n如果你有意加入我们这个拥有专业知识的大家庭，请将您的求职信、简历及成绩单发送到我们的邮箱 [info@shllaw.com.au](info@shllaw.com.au)。"
+
+			[languages.cn.params.cases]
+				title = "过往案例"
+
+				# Aside section
+			# [languages.cn.params.aside]
+			# 	headline = "Get the Creative Theme for Hugo"
+
+			# 	[languages.cn.params.aside.button]
+			# 		text = "Download now"
+			# 		link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+			# Contact section
+			[languages.cn.params.contact]
+				headline = "联系我们"
+				description = "We would love to speak to you in confidence regarding your situation and needs."
+				phone = " +61 2 8004 9826"
+				fax = "+61 2 8004 9892"
+				email = "info@shllaw.com.au"
 				dx = "DX 258 Sydney"
 				officeAddress = "Level 11, 84 Pitt Street, Sydney NSW 2000 Australia"
 				postalAddress = "GPO Box 1636, Sydney NSW 2001"
