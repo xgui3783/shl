@@ -1,7 +1,7 @@
 # baseurl = "https://www.pandamakes.com.au/html/shl_useapi/"
 baseurl = "/"
 languageCode = "en-us"
-title = "SHL and Associates"
+title = "SHL and Associates "
 theme = "hugo-creative"
 DefaultContentLanguage = "en"
 googleAnalytics = ""
@@ -29,6 +29,7 @@ googleAnalytics = ""
 					team 			= "Our Team"
 					portfolio	= "Recent Cases"
 					contact   = "Contact Us"
+					payment   = "Pay Bill"
 
 
 			# Hero section
@@ -61,7 +62,7 @@ googleAnalytics = ""
 			[languages.en.params.team]
 				title = "Our Team"
 				jointitle = "Join our team"
-				joinusmarkdown = "At SHL & Associates Lawyer, we maintain a collegial and inclusive workplace culture.   We believe everyone has a role to play to propel the team to deliver the best outcome for our clients.\n \nIf you wish to join our professional \"family\", please send a cover letter, resume and academic transcript to [info@shllaw.com.au](info@shllaw.com.au)"
+				joinusmarkdown = "At SHL & Associates Lawyer, we maintain a collegial and inclusive workplace culture.   We believe everyone has a role to play to propel the team to deliver the best outcome for our clients.\n \nIf you wish to join our professional \"family\", please send a cover letter, resume and academic transcript to <info@shllaw.com.au>"
 
 			[languages.en.params.cases]
 				title = "Recent Cases"
@@ -106,6 +107,7 @@ googleAnalytics = ""
 					team 			= "我们的团队"
 					portfolio	= "过往案例"
 					contact   = "联系我们"
+					payment   = "付款"
 
 
 			# Hero section
@@ -133,13 +135,13 @@ googleAnalytics = ""
 				client = "Client"
 				date = ""
 				category = ""
-				buttonText = "Close"
+				buttonText = "关闭"
 
 			[languages.cn.params.team]
 
 				title = "我们的团队"
 				jointitle = "加入我们的团队"
-				joinusmarkdown = "在SHL，我们能为你提供一个兼容并包的工作环境。我们相信每个人都能在自己的岗位上发挥推动整个团队的作用，并为客户提供最佳服务。\n\n如果你有意加入我们这个拥有专业知识的大家庭，请将您的求职信、简历及成绩单发送到我们的邮箱 [info@shllaw.com.au](info@shllaw.com.au)。"
+				joinusmarkdown = "在SHL，我们能为你提供一个兼容并包的工作环境。我们相信每个人都能在自己的岗位上发挥推动整个团队的作用，并为客户提供最佳服务。\n\n如果你有意加入我们这个拥有专业知识的大家庭，请将您的求职信、简历及成绩单发送到我们的邮箱 <info@shllaw.com.au>。"
 
 			[languages.cn.params.cases]
 				title = "过往案例"
