@@ -1,7 +1,7 @@
 Property Law & Conveyancing 
 ------
 
-SHL & Associates Lawyers’ property and conveyancing team has extensive experience in all aspects of property law.  Our specialist lawyers work closely and collaboratively with clients providing the most practical commercial advice specifically tailored to their expectations and needs.    
+SHL & Associates Lawyers’ property and conveyancing team has extensive experience in all aspects of property law.  Our lawyers work closely and collaboratively with clients providing the most practical commercial advice specifically tailored to their expectations and needs.    
 
 
 Areas of Expertise 

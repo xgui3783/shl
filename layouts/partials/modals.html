@@ -78,15 +78,3 @@
         {{ partial "modal-unit.html" (dict "context" . "idprefix" "team" "config" $.Site.Params.modal ) }}
     {{ end }}
 {{ end }}
-
-{{ "<!-- Case Modal -->" | safeHTML }}
-
-{{ if eq $.Site.Language.Lang "cn" }}
-    {{ range .Site.Data.cases.cn }}
-        {{ partial "modal-unit.html" (dict "context" . "idprefix" "case" "config" $.Site.Params.modal ) }}
-    {{ end }}
-{{ else }}
-    {{ range .Site.Data.cases.en }}
-        {{ partial "modal-unit.html" (dict "context" . "idprefix" "case" "config" $.Site.Params.modal ) }}
-    {{ end }}
-{{ end }}

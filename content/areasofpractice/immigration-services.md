@@ -1,4 +1,4 @@
-Immigration Service
+Immigration Law
 ------
 
 At SHL & Associates Lawyers, we assist our clients in all areas related to migrating to Australia. We provide tailored advice based on the most up to date immigration decisions and legislative framework. Our objective is to serve our client’s needs, assessing their situation, clearly explaining the options available to them and advising our clients on the best solution based on their unique circumstances. 

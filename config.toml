@@ -1,19 +1,19 @@
 # baseurl = "https://www.pandamakes.com.au/html/shl_useapi/"
 baseurl = "/"
 languageCode = "en-us"
-title = "SHL and Associates "
+title = "SHL & Associates Lawyers "
 theme = "hugo-creative"
 DefaultContentLanguage = "en"
 googleAnalytics = ""
 
 [languages]
 	[languages.en]
-		name = "SHL and Associates"
+		name = "SHL & Associates Lawyers"
 		languageName = "EN"
 
 		[languages.en.params]
 
-			name = "SHL and Associates"
+			name = "SHL & Associates Lawyers"
 			description = "At SHL & Associates Lawyers, we will protect your best interests. Lawyers you can trust!"
 
 			favicon = "favicon.ico"
@@ -21,7 +21,7 @@ googleAnalytics = ""
 
 			# Navigation
 			[languages.en.params.navigation]
-				brand = "SHL and Associates"
+				brand = "SHL & Associates Lawyers"
 
 				[languages.en.params.navigation.links]
 					services  = "Areas of Practice"
@@ -35,7 +35,7 @@ googleAnalytics = ""
 			# Hero section
 			[languages.en.params.hero]
 				# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-				slogan     = "SHL and Associates"
+				slogan     = "SHL & Associates Lawyers"
 				subtitle   = "At SHL & Associates Lawyers, we will protect your best interests."
 				buttonText = "Lawyers you can trust!"
 
@@ -48,8 +48,8 @@ googleAnalytics = ""
 				subtitle = "We offer legal services across various areas including commercial litigation, property law, conveyancing, commercial law, family law, criminal law, immigration law and notary public."
 
 			[languages.en.params.about]
-				headline    = "About SHL and Associates"
-				description = "SHL & Associates Lawyers is a boutique law firm with a team of ethic, energetic, and enthusiastic of lawyers. <br /> <br /> At SHL & Associates Lawyers, we provide quality legal services tailored to your needs and objectives. We apply our expert knowledge and experience to deliver consistently high standards of legal services.    Whether it is a highly complex corporate dispute or a simple property transaction, we protect your best interests in an ethical, responsive and professional manner.  <br /><br />We are the lawyers whom you can trust."
+				headline    = "About SHL & Associates Lawyers"
+				description = "SHL & Associates Lawyers is a boutique law firm with a team of ethic, energetic, and enthusiastic lawyers. <br /> <br /> At SHL & Associates Lawyers, we provide quality legal services tailored to your needs and objectives. We apply our expert knowledge and experience to deliver consistently high standards of legal services.    Whether it is a highly complex corporate dispute or a simple property transaction, we protect your best interests in an ethical, responsive and professional manner.  <br /><br />We are the lawyers whom you can trust."
 				
 
 				# Portfolio modals
@@ -79,19 +79,19 @@ googleAnalytics = ""
 			[languages.en.params.contact]
 				headline = "Contact us"
 				description = "We would love to speak to you in confidence regarding your situation and needs."
-				phone = " +61 2 8004 9826"
-				fax = "+61 2 8004 9892"
+				phone = " Tel: +61 2 8004 9826"
+				fax = "Fax: +61 2 8004 9892"
 				email = "info@shllaw.com.au"
 				dx = "DX 258 Sydney"
 				officeAddress = "Level 11, 84 Pitt Street, Sydney NSW 2000 Australia"
 				postalAddress = "GPO Box 1636, Sydney NSW 2001"
 
 	[languages.cn]
-		name = "SHL and Associates"
+		name = "SHL & Associates Lawyers"
 		languageName = "中文"
 		[languages.cn.params]
 
-			name = "SHL and Associates"
+			name = "SHL & Associates Lawyers"
 			description = "选择SHL，因为我们竭诚为您的利益保驾护航！选择SHL，因为我们团队至诚至信！"
 
 			favicon = "favicon.ico"
@@ -99,7 +99,7 @@ googleAnalytics = ""
 
 			# Navigation
 			[languages.cn.params.navigation]
-				brand = "SHL and Associates"
+				brand = "SHL & Associates Lawyers"
 
 				[languages.cn.params.navigation.links]
 					services  = "专业领域"
@@ -113,7 +113,7 @@ googleAnalytics = ""
 			# Hero section
 			[languages.cn.params.hero]
 				# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-				slogan     = "SHL and Associates"
+				slogan     = "SHL & Associates Lawyers"
 				subtitle   = "选择SHL，因为我们竭诚为您的利益保驾护航！"
 				buttonText = "选择SHL，因为我们团队至诚至信！"
 
@@ -126,7 +126,7 @@ googleAnalytics = ""
 				subtitle = "我们的专业领域包括：商业诉讼、房产法、房产过户、商业法、家庭法、刑法、移民法以及公证服务。"
 
 			[languages.cn.params.about]
-				headline    = "关于 SHL and Associates"
+				headline    = "关于 SHL & Associates Lawyers"
 				description = "SHL是一所专注于专业领域法律的专业化精品所，律师团队以诚信、实干以及竭诚尽力著称。 <br />在SHL，我们为客户提供量身订造的法律服务，我们以丰富的专业知识与经验以保障我们法律服务的品质与法律意见的规范。无论是复杂的公司纠纷或是简单的房产过户交易，我们的团队定会积极为您提供最专业的法律服务。<br />我们的专业，值得您的信赖。"
 				
 
@@ -157,9 +157,9 @@ googleAnalytics = ""
 			# Contact section
 			[languages.cn.params.contact]
 				headline = "联系我们"
-				description = "We would love to speak to you in confidence regarding your situation and needs."
-				phone = " +61 2 8004 9826"
-				fax = "+61 2 8004 9892"
+				description = "我们衷心诚恳的邀请您来我们律师事务所来和我们的律师谈您的情况和您的需要。"
+				phone = "电话：+61 2 8004 9826"
+				fax = "传真：+61 2 8004 9892"
 				email = "info@shllaw.com.au"
 				dx = "DX 258 Sydney"
 				officeAddress = "Level 11, 84 Pitt Street, Sydney NSW 2000 Australia"

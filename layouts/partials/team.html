@@ -16,7 +16,7 @@
 
             {{ if eq $.Site.Language.Lang "cn" }}
                 {{ range sort .Site.Data.team.cn "order" }}
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <a href="#team-{{ .id }}" class="portfolio-box portfolio-link" data-toggle="modal">
                         <img src="/img/team/{{ .id }}.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
@@ -33,7 +33,7 @@
                 {{ end }}
             {{ else }}
                 {{ range sort .Site.Data.team.en "order" }}
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <a href="#team-{{ .id }}" class="portfolio-box portfolio-link" data-toggle="modal">
                         <img src="/img/team/{{ .id }}.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
@@ -49,9 +49,9 @@
                 </div>
                 {{ end }}
             {{ end }}
-
+            
             {{ with .Site.Params.team}}
-            <div class = "col-lg-4 col-sm-6">
+            <div class = "col-md-8 col-md-push-2 col-sm-12">
                 <div class="container1" id = "joinus">
                     <div class="row1">
                         <div class="col-sm-12 text-center">
@@ -59,7 +59,7 @@
                                 {{ .jointitle }}
                             </h2>
                             <hr class = "light">
-                            <div class = "text-faded">
+                            <div class = "text-faded text-justify">
                                 {{ .joinusmarkdown | markdownify }}
                             </div>
                         </div>
@@ -68,5 +68,7 @@
             </div>
             {{ end }}
         </div>
+        
     </div>
+    
 </section>
