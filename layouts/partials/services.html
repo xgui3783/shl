@@ -1,0 +1,78 @@
+{{ "<!-- SERVICES -->" | safeHTML }}
+<section id="services">
+    {{ with .Site.Params.services }}
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ .headline }}</h2>
+                    <hr class="primary">
+                </div>
+                <div class = "col-md-8 col-md-push-2 col-sm-12 text-center">
+                    <p class = "text-faded2">
+                        {{ .subtitle }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    {{ end }}
+    <div class="no-padding container-fluid service-box-container">
+        <div class="row no-gutter">
+
+        {{ if eq $.Site.Language.Lang "cn" }}
+            {{ $len := (len .Site.Data.areas.cn) }}
+            {{ range $index, $element := sort .Site.Data.areas.cn "order" }}
+            <div 
+                {{ if eq (add $index 1) $len }}
+                class="col-md-push-4 col-md-4 col-sm-12"
+                {{ else }}
+                class="col-md-4 col-sm-12"
+                {{ end }}
+                >
+                <a href="#area-{{ .id }}" class="portfolio-box portfolio-link no-text-decoraction" data-toggle="modal">
+                    <div class = "img-responsive">
+                        <div class = "text-center">
+                            <h3 class = "servicesHeader">
+                                {{ $element.title  }}
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-box-caption">
+                        <h3 class="servicesHeader">
+                            {{ $element.title  }}
+                        </h3>
+                    </div>
+                </a>
+            </div>
+            {{ end }}
+        {{ else }}
+            {{ $len := (len .Site.Data.areas.en) }}
+            {{ range $index, $element := sort .Site.Data.areas.en "order" }}
+            <div 
+                {{ if eq (add $index 1) $len }}
+                class="col-md-push-4 col-md-4 col-sm-12"
+                {{ else }}
+                class="col-md-4 col-sm-12"
+                {{ end }}
+                >
+                <a href="#area-{{ .id }}" class="portfolio-box portfolio-link no-text-decoraction" data-toggle="modal">
+                    <div class = "img-responsive">
+                        <div class = "text-center">
+                            <h3 class = "servicesHeader">
+                                {{ $element.title  }}
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="portfolio-box-caption">
+                        <h3 class="servicesHeader">
+                            {{ $element.title  }}
+                        </h3>
+                    </div>
+                </a>
+            </div>
+            {{ end }}
+        {{ end }}
+
+
+        </div>
+    </div>
+</section>

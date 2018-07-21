@@ -1,0 +1,32 @@
+{{ "<!-- Modal Unit -->" | safeHTML }}
+
+{{ if isset .context "markdown" }}
+<div class="portfolio-modal modal fade" id="{{ .idprefix }}-{{ .context.id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <div>
+                            <div class="row">
+                                <div class="col-sm-12 text-left">
+                                    {{ .context.markdown | markdownify }}
+                                </div>
+                            </div>
+                        </div>
+                        {{ with .config.buttontext }}
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>{{.}}</button>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

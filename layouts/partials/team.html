@@ -1,0 +1,72 @@
+{{ "<!-- TEAM -->" | safeHTML }}
+
+<section class = "no-padding" id="team">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">
+                    {{ .Site.Params.team.title }}
+                </h2>
+                <hr class="light">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid service-box-container">
+        <div class="row no-gutter">
+
+            {{ if eq $.Site.Language.Lang "cn" }}
+                {{ range sort .Site.Data.team.cn "order" }}
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#team-{{ .id }}" class="portfolio-box portfolio-link" data-toggle="modal">
+                        <img src="/img/team/{{ .id }}.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                {{ with .title }}
+                                    <div class="project-name">
+                                        {{ . }}
+                                    </div>
+                                {{ end }}
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                {{ end }}
+            {{ else }}
+                {{ range sort .Site.Data.team.en "order" }}
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#team-{{ .id }}" class="portfolio-box portfolio-link" data-toggle="modal">
+                        <img src="/img/team/{{ .id }}.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                {{ with .title }}
+                                    <div class="project-name">
+                                        {{ . }}
+                                    </div>
+                                {{ end }}
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                {{ end }}
+            {{ end }}
+
+            {{ with .Site.Params.team}}
+            <div class = "col-lg-4 col-sm-6">
+                <div class="container1" id = "joinus">
+                    <div class="row1">
+                        <div class="col-sm-12 text-center">
+                            <h2 class = "section-heading">
+                                {{ .jointitle }}
+                            </h2>
+                            <hr class = "light">
+                            <div class = "text-faded">
+                                {{ .joinusmarkdown | markdownify }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>

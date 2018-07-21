@@ -589,3 +589,10 @@ section#team
     height:50em;
     border:0;
 }
+
+/* addon */
+.servicesHeader
+{
+    margin:0;
+    padding:0.8em auto;
+}
