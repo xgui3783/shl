@@ -15,21 +15,21 @@
             </div>
         </div>
     {{ end }}
-    <div class="no-padding container-fluid service-box-container">
-        <div class="row no-gutter">
+    <div class="container-fluid service-box-container">
+        <div class="row">
 
         {{ if eq $.Site.Language.Lang "cn" }}
             {{ $len := (len .Site.Data.areas.cn) }}
             {{ range $index, $element := sort .Site.Data.areas.cn "order" }}
             <div 
                 {{ if eq (add $index 1) $len }}
-                class="col-md-push-4 col-md-4 col-sm-12"
+                class="text-responsive-container col-md-push-4 col-md-4 col-sm-12"
                 {{ else }}
-                class="col-md-4 col-sm-12"
+                class="text-responsive-container col-md-4 col-sm-12"
                 {{ end }}
                 >
                 <a href="#area-{{ .id }}" class="portfolio-box portfolio-link no-text-decoraction" data-toggle="modal">
-                    <div class = "img-responsive">
+                    <div class = "text-responsive img-responsive">
                         <div class = "text-center">
                             <h3 class = "servicesHeader">
                                 {{ $element.title  }}
@@ -49,9 +49,9 @@
             {{ range $index, $element := sort .Site.Data.areas.en "order" }}
             <div 
                 {{ if eq (add $index 1) $len }}
-                class="col-md-push-4 col-md-4 col-sm-12"
+                class="text-responsive-container col-md-push-4 col-md-4 col-sm-12"
                 {{ else }}
-                class="col-md-4 col-sm-12"
+                class="text-responsive-container col-md-4 col-sm-12"
                 {{ end }}
                 >
                 <a href="#area-{{ .id }}" class="portfolio-box portfolio-link no-text-decoraction" data-toggle="modal">
