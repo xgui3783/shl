@@ -628,3 +628,8 @@ section#team
 {
     color : #a12120;
 }
+
+.portfolio-modal .modal-content  .container h2
+{
+    margin-bottom: 0.5em;
+}
