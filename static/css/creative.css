@@ -150,10 +150,10 @@ aside {
         color: rgba(255,255,255,.7);
     }
 
-    .navbar-default .nav > li>a:hover,
+    /* .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
         color: #fff;
-    }
+    } */
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);

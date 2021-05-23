@@ -1,103 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>/areasofpractice/cn/commercial-corporate-law/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/areasofpractice/cn/commercial-litigation/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/areasofpractice/cn/criminal-law/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/areasofpractice/cn/family-law/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/areasofpractice/cn/immigration-services/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/areasofpractice/cn/notary-public/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/areasofpractice/cn/property-law-conveyancing/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/areasofpractice/commercial-corporate-law/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/areasofpractice/commercial-litigation/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/areasofpractice/criminal-law/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/areasofpractice/family-law/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/areasofpractice/immigration-services/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/areasofpractice/notary-public/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/areasofpractice/property-law-conveyancing/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/team/cathy-zhou/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/team/cn/cathy-zhou/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/team/cn/gloria-wang/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/team/cn/jessica-chung/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/team/cn/jonathan-lu/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/team/gloria-wang/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/team/jessica-chung/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/team/jonathan-lu/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/areasofpractice/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/categories/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
@@ -108,11 +59,8 @@
                 hreflang="en"
                 href="/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
@@ -123,11 +71,8 @@
                 hreflang="en"
                 href="/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/tags/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="cn"
@@ -138,11 +83,7 @@
                 hreflang="en"
                 href="/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>/team/</loc>
-    <priority>0</priority>
   </url>
-  
 </urlset>
