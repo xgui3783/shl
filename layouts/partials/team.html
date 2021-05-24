@@ -12,44 +12,25 @@
         </div>
     </div>
     <div class="container-fluid service-box-container">
-        <div class="row no-gutter">
+        <div class="row">
 
             {{ if eq $.Site.Language.Lang "cn" }}
                 {{ range sort .Site.Data.team.cn "order" }}
-                <div class="col-lg-3 col-sm-6">
-                    <a href="#team-{{ .id }}" class="portfolio-box portfolio-link" data-toggle="modal">
-                        <img src="/img/team/{{ .id }}.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                {{ with .title }}
-                                    <div class="project-name">
-                                        {{ . }}
-                                    </div>
-                                {{ end }}
-                            </div>
-                        </div>
-                    </a>
+                <!-- col-lg-push-x really depends on how many team members are available -->
+                <div class="col-lg-push-3 col-lg-3 col-sm-6">
+                    {{ partial "team-unit.html" . }}
                 </div>
                 {{ end }}
             {{ else }}
                 {{ range sort .Site.Data.team.en "order" }}
-                <div class="col-lg-3 col-sm-6">
-                    <a href="#team-{{ .id }}" class="portfolio-box portfolio-link" data-toggle="modal">
-                        <img src="/img/team/{{ .id }}.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                {{ with .title }}
-                                    <div class="project-name">
-                                        {{ . }}
-                                    </div>
-                                {{ end }}
-                            </div>
-                        </div>
-                    </a>
+                <!-- col-lg-push-x really depends on how many team members are available -->
+                <div class="col-lg-push-3 col-lg-3 col-sm-6">
+                    {{ partial "team-unit.html" . }}
                 </div>
                 {{ end }}
             {{ end }}
-            
+        </div>
+        <div class="row no-gutter">
             {{ with .Site.Params.team}}
             <div class = "col-md-8 col-md-push-2 col-sm-12">
                 <div class="container1" id = "joinus">
