@@ -17,14 +17,14 @@
             {{ if eq $.Site.Language.Lang "cn" }}
                 {{ range sort .Site.Data.team.cn "order" }}
                 <!-- col-lg-push-x really depends on how many team members are available -->
-                <div class="col-lg-push-3 col-lg-3 col-sm-6">
+                <div class="col-lg-push-3 col-lg-6 col-sm-12">
                     {{ partial "team-unit.html" . }}
                 </div>
                 {{ end }}
             {{ else }}
                 {{ range sort .Site.Data.team.en "order" }}
                 <!-- col-lg-push-x really depends on how many team members are available -->
-                <div class="col-lg-push-3 col-lg-3 col-sm-6">
+                <div class="col-lg-push-3 col-lg-6 col-sm-12">
                     {{ partial "team-unit.html" . }}
                 </div>
                 {{ end }}

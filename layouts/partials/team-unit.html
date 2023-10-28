@@ -1,12 +1,3 @@
-<a href="#team-{{ .id }}" class="portfolio-box portfolio-link" data-toggle="modal">
-    <img src="/img/team/{{ .id }}-square.jpg" style="border-radius: 50%;" class="img-responsive" alt="">
-    <div class="portfolio-box-caption">
-          <div class="portfolio-box-caption-content">
-              {{ with .title }}
-                  <div class="project-name">
-                      {{ . }}
-                  </div>
-              {{ end }}
-          </div>
-    </div>
-</a>
+{{ with .markdown }}
+    {{ . | markdownify }}
+{{ end }}
