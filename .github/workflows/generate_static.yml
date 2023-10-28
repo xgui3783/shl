@@ -1,0 +1,32 @@
+name: 'generate static site assets'
+
+on:
+  push:
+    branches:
+    - master
+
+env:
+  HUGO_VERSION: "0.83.1"
+
+jobs:
+  generate-me:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: 'Update modules'
+      run: git submodule update --init
+    - name: 'Download hugo v${{ env.HUGO_VERSION }}'
+      run: |
+        export url=https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_${{ env.HUGO_VERSION }}_Linux-64bit.tar.gz
+        echo Downloading $url ...
+        wget $url
+    - name: 'Extracting Hugo'
+      run: tar xzf ./hugo_${{ env.HUGO_VERSION }}_Linux-64bit.tar.gz
+    - name: 'Build artefacts'
+      run: ./hugo
+    - uses: actions/upload-artifact@v3
+      with:
+        name: generated-static-website
+        path: ./public
+        retention-days: 30
+
